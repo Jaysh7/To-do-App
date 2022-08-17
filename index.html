@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <!--------------------Input Area--------------------->
+        <div class="container">
+            <div class="input-wrap">
+                <form id ="form">
+                <input class="input1" type="text" id="title" name="title" placeholder="Title of the task">
+                <input class="input1"type="text" id="description" name="description" placeholder="Description">
+                <input class="input1"type="date" id="date" name="date" placeholder="Date for completion">
+                <input type="submit" id="addtask" name="addtask" value="+">
+                </form>
+            </div>
+        </div>
+        <!------------------To do Heading----------------------->
+        <div class="heading">
+            <h1>TO  DO  LIST <ion-icon name="rocket-outline"></ion-icon>
+            </h1>
+        
+        </div>
+        <!---------------------To do data Cards----------------------->
+        <!---------------------Delete & Edit button------------------->
+        <div class="card-container"> </div>
+        <!--<div class=" card">
+            <h3>Title</h3>
+            <p>Description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut</p>
+            <p>Date :</p>
+              <div class="button-wrap">
+                  <button class="delete">
+                  <ion-icon name="trash-outline"></ion-icon>
+                  </button>  
+            </div>
+            <button class="edit">
+                <ion-icon name="checkmark-done-outline"></ion-icon>
+            </button>
+        </div> -->
+    </div>
+    <script src="./script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
